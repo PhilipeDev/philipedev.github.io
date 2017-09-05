@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+
+
+.container{
+	max-width:970px;
+	height:auto;
+}
+
+.container{
+	padding-right: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding: 2em 0 2em;
+	padding-bottom: 4em;
+	padding-top: 4em;
+	font-family: "Lato", sans-serif;
+}
+
+body{
+	font-family: Verdana, sans-serif;
+}
+
+.vermelho{
+	color:#fff;
+	background-color:#f44336;
+}
+
+.top{
+	top:0;
+	position: fixed;
+	width:100%;
+	z-index:1;
+}
+
+.menuHor{
+	border: none;
+	list-style-type: none;
+	overflow: hidden;
+	width: 100%;
+	background-color: #f44336;
+	display: inline-block;
+	font-size: 18px;
+	text-align: left;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 02px 5px 0 rgba(0,0,0,0.12);
+}
+
+.menuHor, h1, button{
+	font-family: "Montserrat", sans-serif;
+}
+
+.menuHor li{
+	float: left;
+}
+
+.menuHor li a{
+	display: block;
+	color: #fff;
+	width: auto;
+	border: none;
+	outline: none;
+	text-align: center;
+	padding: 16px 24px;
+	text-decoration: none;
+}
+
+.menuHor a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.menuHor active{
+	border:none;
+	display: inline-block;
+	outline;0;
+	padding: 8px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor:pointer;
+}
+
+.cabecalho{
+	padding: 128px 16px;
+	margin 16px;
+}
+
+#cabecalho h1{
+	font-family{
+	lemon
+	}
+}
+
+#cabecalho div{
+	background:rgb(244, 67, 54);
+}
+
+.intro{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 14px;
+	line-height:1.42857143;
+	color: #545454;
+}
+
+.introLinha{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+
+
+.cabecalho p{
+	font-size: 24px;
+}
+
+.abreFecha{
+	color: rgb(0, 255, 186);
+}
+
+.botaoPreto{
+	color: #fff;
+	background-color: #000;
+	padding: 12px 24px;
+	margin-top: 16px;
+	font-size: 18px;
+	border: none;
+	display: inline-block;
+	outline:0;
+	vertical-allign: middle;
+	overflow: hidden;
+	text-decoration:none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	font-family: "Monteserrat", sans-serif;
+	text-transformation: none;
+	moz-user-select: none;
+	
+}
+
+.botaoPreto:hover{
+	background-color:#fff;
+	color: #000;
+}
+
+
+.cabecalho h1{
+	margin: 16px;
+	font-size:64px;
+	color: #cccccc;
+	text-align: center;
+}
+
+
+
+.conteudo{
+	max-width: 980px;
+	margin:auto;
+}
+
+.conteudo p{
+	color: #757575;
+}
+
+#intro{
+	padding: 7em 0 7em;
+	margin: 0 0 6em;
+	position: relative;
+	background: #f1f1f1;
+}
+
+#intro article{
+	margin: 0 auto;
+	max-width: 470px;
+}
+
+#intro p{
+	text-aligh:center;
+	font-size: 17px;
+	margin: 0 0 10px;
+	font-weight: 300;
+}
+
+#intro article figure{
+	margin: 20px auto;
+	max-width: 200px;
+}
+
+#intro article h3{
+	text-align: center;
+	padding: .5em 0;
+	color: #f44336;
+	font-size: 2em;	
+}
+
+#habilidades{
+	
+}
+
+.doisTerços{
+	float: left;
+	width:65.55555%;
+}
+
+.doisTerços h5{
+	padding-top: 32px;
+	padding-bottom: 32px;
+	font-size: 18px;
+}
+
+.terço{
+	width:32.22222;
+	float:left;
+	text-align:center;
+}
+
+#mim{
+	color: #000;
+	background-color: #f1f1f1;
+}
+
+.iconeLampada{
+	display: inliine-block;
+	width: 177px;
+	margin-top: 100px;
+	margin-right: 150px;
+}
+
+
+
+.iconeFoguete{
+	width: 177px;
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 100px;
+}
+
+.iconeLapis{
+	width:177px;
+}
+
+
+#rodape{
+	margin: 0 0 0em;
+	position: relative;
+	background-color: #f44336;
+	color: #fff;
+}
+
+.rodape{
+	width: auto;
+	height: auto;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	font-size:24px;
+	text-align: center;
+}
+
+.rodape article h1{
+	text-align: center;
+	padding: .5em 0;
+}
+
+.textoCentro{
+	text-align: center;
+}
