@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
-
+@font-face{
+	font-family:"lemon";
+	src: url("fonts/LemonMilk.otf");
+}
 
 .container{
 	max-width:970px;
@@ -9,9 +12,9 @@
 
 .container{
 	padding-right: 15px;
+	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 15px;
 	padding: 2em 0 2em;
 	padding-bottom: 4em;
 	padding-top: 4em;
@@ -73,7 +76,7 @@ body{
 .menuHor active{
 	border:none;
 	display: inline-block;
-	outline;0;
+	outline: 0;
 	padding: 8px 16px;
 	vertical-align: middle;
 	overflow: hidden;
@@ -83,18 +86,32 @@ body{
 }
 
 .cabecalho{
-	padding: 128px 16px;
-	margin 16px;
+	padding: 77px 15px;
+	
 }
 
 #cabecalho h1{
-	font-family{
-	lemon
-	}
+	color: #000000;
+	font-family: "lemon", sans-serif;
 }
 
 #cabecalho div{
 	background:rgb(244, 67, 54);
+}
+
+.cabecalho p{
+	font-size: 24px;
+}
+
+.cabecalho h1{
+	margin: 16px;
+	font-size:64px;
+	color: #cccccc;
+	text-align: center;
+}
+
+#cabecalho header div form {
+	padding: 15px;	
 }
 
 .intro{
@@ -107,19 +124,9 @@ body{
 	color: #545454;
 }
 
-.introLinha{
-	margin-right: 15px;
-	margin-left: 15px;
-}
-
-
-
-.cabecalho p{
-	font-size: 24px;
-}
 
 .abreFecha{
-	color: rgb(0, 255, 186);
+	color: #fff;
 }
 
 .botaoPreto{
@@ -148,16 +155,6 @@ body{
 	color: #000;
 }
 
-
-.cabecalho h1{
-	margin: 16px;
-	font-size:64px;
-	color: #cccccc;
-	text-align: center;
-}
-
-
-
 .conteudo{
 	max-width: 980px;
 	margin:auto;
@@ -165,11 +162,11 @@ body{
 
 .conteudo p{
 	color: #757575;
+	font-size: 17px;
 }
 
 #intro{
 	padding: 7em 0 7em;
-	margin: 0 0 6em;
 	position: relative;
 	background: #f1f1f1;
 }
@@ -198,8 +195,8 @@ body{
 	font-size: 2em;	
 }
 
-#habilidades{
-	
+#sobreHabilidade div h1{
+	color: #ff9800;
 }
 
 .doisTerços{
@@ -219,28 +216,40 @@ body{
 	text-align:center;
 }
 
-#mim{
+#ideia{
 	color: #000;
 	background-color: #f1f1f1;
 }
 
+#desenvolver{
+	color: #00bcd4;
+}
+
+.iconeJava{
+	width: 177px;
+	margin-right: 150px;
+}
+
 .iconeLampada{
-	display: inliine-block;
 	width: 177px;
 	margin-top: 100px;
 	margin-right: 150px;
 }
 
-
-
 .iconeFoguete{
 	width: 177px;
-	position: absolute;
 	margin-left: 150px;
 	margin-top: 100px;
 }
 
-.iconeLapis{
+#iconeConteudo{
+	width: 200px;
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 55px;
+}
+
+.icone{
 	width:177px;
 }
 
@@ -252,18 +261,28 @@ body{
 	color: #fff;
 }
 
-.rodape{
+.social{
 	width: auto;
 	height: auto;
-	padding-top: 32px;
 	padding-bottom: 32px;
-	font-size:24px;
+	font-size:40px;
+	text-decoration:none;
 	text-align: center;
 }
 
 .rodape article h1{
 	text-align: center;
 	padding: .5em 0;
+}
+
+#rodape footer div i:hover{
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#rodape footer p{
+	font-size: 11px;
+	padding: 40px 0 0 0;
 }
 
 .textoCentro{
