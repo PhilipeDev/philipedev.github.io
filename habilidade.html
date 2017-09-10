@@ -5,6 +5,8 @@
 <title>Philipe Oliveira - Web & Mobile Developer - Habilidades</title>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="O portfolio de Philipe Oliveira, um desenvolvedor Brasileiro de São Paulo, Brasil."/>
+<meta name="keywords" content="philipe, oliveira, philipe oliveira, web site, developer, desenvolvedor, ilustrações, web design"/>
 <link rel="stylesheet" href="assets/css/bootstrap.css" media="screen">
 <link rel="stylesheet" href="assets/css/estilo.css" media="screen">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -15,16 +17,17 @@
 <!-- Menu -->
 <div class="top">
 	<nav>
-		<ul class="menuHor vermelho">
+		<ul class="topnav vermelho" id="myTopnav">
 			<li><a href="index.html">Sobre mim</a></li>
 			<li><a href="habilidade.html">Habilidades</a></li>
 			<li><a href="#">¿?</a></li>
 			<li><a href="#">Curriculo</a></li>
+			<li class="icon"><a class="link" href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
 		</ul>
 	</nav>
 </div>
 
-	<!-- Conteúdo -->
+<!-- Conteúdo -->
 <!-- Primeira Grade Habilidades - Introdução -->
 <section id="intro">
 <div class="container">
@@ -34,7 +37,7 @@
 				<figure>
 					<img class="icone" src="assets/img/iconFerramenta.png" alt="Imagem com uma Ferramenta, representando minhas habilidades, o trabalho duro, a ferramenta de meu trabalho/oficio." />
 				</figure>
-				<h3>Habilidades.</h3>
+				<h3>Habilidades</h3>
 				<p>Por enquanto sou apenas um estudante de desenvolvimento Web & Back-end, mas a seguir está um pouco do que sei construir ou aprendendo a construir!</p>
 			</article>
 		</div>
@@ -42,89 +45,154 @@
 </div>
 </section>
 <!-- SegundaGrade Habilidades - Responsive Web Development -->
-<section id="sobreHabilidade">
+<section id="sobreHabilidade" class="conteudoHabilidade">
 <div class="container">
-	<div class="conteudo">
-		<div class="doisTerços">
-			<h1>Desenvolvimento Web Responsivo</h1>
-			<h5>
-			 	Ao desenvolver para web procuro sempre ser o mais responsivo e semântico possível, 
-			 	<span id="desenvolver">focado em projetar o que você quer</span> transmitindo a mensagem que você deseja transmitir e 
-			 	<span id="desenvolver">desenvolver oque você precisa</span>.
-			 </h5>
-			 <p>
-			 	Desenvolvo pelo browser com HTML(5), CSS(3) e um toque de JavaScript, adoro codificar por rascunhos, 
-			 	gosto sempre de deixar as coisas o mais simples possível, 
-			 	mas também posso trabalhar com frameworks front-end como o Bootstrap, dentre outras.   
-			 	Sou um desenvolvedor, então sei como criar a sua página web para ser executado em dispositivos 
-			 	utilizando as mais recentes tecnologias disponíveis.
-			 </p>
-		</div>
-		<div class="terço">
-			<figure>
-			<img id="iconeConteudo"  alt="Icone com fundo laranja mostrando vários tipos de dispositivos
-			 com telas de tamanhos diferentes, representando a responsividade" src="assets/img/icon-responsivedesign2.png"/>
-			</figure>
+	<div class="row">
+		<div class="col-md-12">
+			<article>
+				<header>
+					<h1>Desenvolvimento Web Responsivo</h1>
+				</header>
+				<div id="desenho" class="row">
+					<div class="col-md-4 col-md-offset-1">
+						<div class="banco-design">
+							<figure>
+								<img  alt="Icone com fundo laranja mostrando vários tipos de dispositivos
+			 					com telas de tamanhos diferentes, representando a responsividade" src="assets/img/icon-responsivedesign2.png"/>
+							</figure>
+
+						 </div>
+					</div>
+					<div class="col-md-6">
+						<div class="conteudoTeste">
+							<h3>
+								<span id="desenvolver">Projetar o que você quer.</span>
+						 	</h3>
+						 	<p> 
+						 		Ao desenvolver para web procuro sempre ser o mais responsivo e semântico possível, 
+			 					<span id="desenvolver">focado em projetar o que você quer</span> transmitindo a mensagem que você deseja transmitir e 
+			 					<span id="desenvolver">desenvolver oque você precisa</span>.
+			 					Sou um desenvolvedor, então sei como criar a sua página web para ser executado em dispositivos 
+			 					utilizando as mais recentes tecnologias disponíveis.
+						 	</p>				
+						</div>
+					</div>
+				</div>
+				<div id="progresso" class="row">
+					<div class="col-md-4 col-md-push-7">
+						<div class="web-progresso">
+							<figure>
+								<img id="iconeWeb" alt="Icone contendo os logotipos do HTML5, JavaScript, CSS3 e Bootstrap." 
+								src="assets/img/icon-html5-js-css3.png"/>
+							</figure>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-pull-3">
+						<div class="conteudoTeste">
+							<h3><span id="desenvolver">Desenvolver o que você precisa.</span></h3>
+							<p>
+								Desenvolvo pelo browser com HTML(5), CSS(3) e um toque de JavaScript, adoro codificar por rascunhos, 
+			 					gosto sempre de deixar as coisas o mais simples possível, 
+			 					mas também posso trabalhar com frameworks front-end como o Bootstrap, dentre outras.
+			 				</p>
+						</div>
+					</div>
+				</div>
+			</article>
 		</div>
 	</div>
 </div>
 </section>
 <!-- Terceira Grade Habilidades - Domain Driven Design -->
-<section id="ideia">
-<div class="terceiraGrade container">
-	<div class="conteudo">
-		<div class="terço">
-			<figure >
-			<img class="iconeJava"  src="assets/img/java-icon.png" alt="Icone com fundo vermelho em degradê com uma lâmpada representando uma idéia."/>
-			</figure>
-		</div>
-		<div class="doisTerços">
-			<h1>Domain Driven Design</h1>
-			<h5>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-			incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			</h5>
-			<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-			et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-			aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-			officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor 
-			incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-			ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			</p>
+<section id="sobre" class="conteudoHabilidade">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			<article>
+			<header>
+				<h1>Domain Driven Design</h1>
+			</header>
+			<div id="desenho" class="row">
+				<div class="col-md-4 col-md-offset-1">
+					<div class="java-design">
+						<figure>
+							<img class="iconeJava"  src="assets/img/java-icon.png" alt="Icone com fundo vermelho em degradê com uma lâmpada representando uma idéia."/>
+						</figure>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="conteudoTeste">
+						<h3>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+							aliquip ex ea commodo consequat.
+						</p>					
+					</div>
+				</div>
+			</div>
+			</article>
+			</div>
 		</div>
 	</div>
-</div>
 </section>
-<!-- Terceira Grade Habilidades - Banco de Dados -->
-<section id="banco">
+<!-- Quarta Grade Habilidades - Banco de Dados -->
+<section id="banco" class="conteudoHabilidade">
 <div class="container">
-	<div class="conteudo">
-		<div class="doisTerços">
-			<h1>Banco de dados</h1>
-			<h5>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-			 	incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-			 	nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			</h5>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-			 	et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-			 	aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-			 	officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor 
-			 	incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-			 	ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			 </p>
-		</div>
-		<div class="terço">
-			<figure>
-				<img class="iconeFoguete" src="assets/img/icon-oracle-db.png"/>
-			</figure>
+	<div class="row">
+		<div class="col-md-12">
+			<article>
+				<header>
+					<h1>Banco de Dados</h1>
+				</header>
+				<div id="progresso" class="row">
+					<div class="col-md-4 col-md-push-7">
+						<div class="banco-progresso">
+							<figure>
+								<img src="assets/img/data-modeler-icon.png"/>
+							</figure>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-pull-3">
+						<h3>
+							Oracle Data Modeler
+						</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+			 				et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+			 				aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident.
+			 		</div>
+			 	</div>
+			 	<div id="desenho" class="row">
+			 		<div class="col-md-4 col-md-offset-1">
+						<div class="banco-design">
+							<figure>
+								<img src="assets/img/icon-oracle-db.png"/>
+							</figure>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="conteudoTeste">
+							<h3>
+								Oracle SQL Developer
+							</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+			 					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+			 					aliquip ex ea commodo consequat.
+			 				</p>
+			 			</div>
+			 		</div>
+			 	</div>
+			 </article>
 		</div>
 	</div>
 </div>
 </section>
+<!-- Quinta Grade Habilidades - Dispositivos Moveis -->
+
 <!-- Rodapé -->
 <section id="rodape">
 	<footer class="container">
@@ -136,6 +204,8 @@
 		<p class="textoCentro">Feito a mão por Philipe Oliveira. Todos os direitos não reservados!</p>
 	</footer>
 </section>
+<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="assets/js/bootsrap.min.js"></script>
 <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
