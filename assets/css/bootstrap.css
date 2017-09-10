@@ -1268,11 +1268,11 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 35px;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 27px;
 }
 h4,
 .h4 {
@@ -1961,7 +1961,7 @@ pre code {
     width: 41.66666667%;
   }
   .col-md-4 {
-    width: 33.33333333%;
+    width: 25.33333333%;
   }
   .col-md-3 {
     width: 25%;
