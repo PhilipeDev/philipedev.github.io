@@ -2,8 +2,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Felipe Oliveira | Web & Mobile Developer</title>
+<title>Philipe Oliveira | Web & Mobile Developer</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="O portfolio de Philipe Oliveira, um desenvolvedor Brasileiro de São Paulo, Brasil."/>
+<meta name="keywords" content="philipe, oliveira, philipe oliveira, web site, developer, desenvolvedor, ilustrações, web design"/>
 <link rel="stylesheet" href="assets/css/bootstrap.css" media="screen">
 <link rel="stylesheet" href="assets/css/estilo.css" media="screen">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -13,17 +15,30 @@
 </head>
 <body>
 
-
 <!-- Menu -->
 <div class="top">
-	<nav>
-		<ul class="topnav vermelho" id="myTopnav">
-			<li><a href="index.html">Sobre mim</a></li>
-			<li><a href="habilidade.html">Habilidades</a></li>
-			<li><a href="#">¿?</a></li>
-			<li><a href="#">Curriculo</a></li>
-			<li class="icon"><a class="link" href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
-		</ul>
+	<nav class="navbar navbar-inverse vermelho">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="collapsed navbar-toggle"
+					data-toggle="collapse" data-target="#bs-example-navbar-collapse-9"
+					aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a href="index.html" class="navbar-brand">Philipe Oliveira</a>
+			</div>
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-9">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html#intro">Sobre mim</a></li>
+					<li><a href="habilidade.html">Habilidades</a></li>
+					<li><a href="#">¿?</a></li>
+					<li><a href="#">Curriculo</a></li>
+				</ul>
+			</div>
+		</div>
 	</nav>
 </div>
 
@@ -36,9 +51,9 @@
 			<span class="abreFecha"> < </span>OLÁ MUNDO  !<span class="abreFecha"> /></span>					
 		</h1>
 		<p>por</p>
-		<p>Felipe Oliveira</p>
+		<p>Philipe Oliveira</p>
 		<form action="index.html#intro">
-			<input type="submit" class="botaoPreto" value="Me Conheça"></button>
+			<input type="submit" class="botaoPreto" value="Me Conheça"/>
 		</form>
 	</div>
 </header>
@@ -50,37 +65,48 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<article>
+			<article class="textoCentro">
 				<figure>
 					<img class="icone" src="assets/img/iconRedPencil.png" alt="Imagem com um lapís, representando a introdução, o inicio, o lapís escrevendo a historia." />
 				</figure>
 				<h3>Oi.</h3>
-				<p>Sou desenvolvedor Web & Back-end morando em São Paulo, Brazil. Tenho uma paixão por códigos e por tecnologia e amo criar para web e dispositivos moveis.  </p>
+				<p>Sou desenvolvedor Web & Back-end, moro em São Paulo, Brazil. Tenho uma paixão por tecnologia e adoro criar para web e dispositivos moveis.  </p>
 			</article>
 		</div>
 	</div>
 </div>
 </section>
 <!-- SegundaGrade - Sobre mim -->
-<section id="ideia">
+<section id="ideia" class="conteudoHabilidade">
 <div class="container">
-	<div class="conteudo">
-		<div class="terço">
-			<figure >
-			<img id="iconeLampada" class="padding64" alt="Icone com fundo cinza mostrando um foguete em decolagem" src="assets/img/iconFoguete.png"/>
-			</figure>
-		</div>
-		<div class="doisTerços">
-			<h1>Lorem Ipsum</h1>
-			<h5>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-			incididunt ut labore et dolore magna aliqua.
-			</h5>
-			<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-			et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-			aliquip ex ea commodo consequat.
-			</p>
+	<div class="row">
+		<div class="col-md-12">
+			<article>
+				<header>
+					<h1>Lorem Ipsum</h1>
+				</header>
+				<div id="desenho" class="row">
+					<div class="col-md-4 col-md-offset-1">
+						<div class="banco-design">
+							<figure>
+								<img id="icone" alt="Icone com fundo cinza mostrando um foguete em decolagem" src="assets/img/iconFoguete.png"/>
+							</figure>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="conteudoTeste">
+							<h3>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+								et dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+						</div>
+					</div>
+				</div>
+			</article>
+
 		</div>
 	</div>
 </div>
@@ -88,23 +114,21 @@
 <!-- Terceira Grade - Ideia -->
 <section id="sobre">
 <div class="container">
-	<div class="conteudo">
-		<div class="doisTerços">
-			<h1>Lorem Ipsum</h1>
-			<h5>
-			 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-			 	incididunt ut labore et dolore magna aliqua.
-			 </h5>
-			 <p>
-			 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-			 	et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-			 	aliquip ex ea commodo consequat.
-			 </p>
-		</div>
-		<div class="terço">
-			<figure>
-				<img id="iconeLampada" class="padding64"  src="assets/img/iconIdeaRed.png"  alt="Icone com fundo vermelho em degradê com uma lâmpada representando uma idéia."/>
-			</figure>
+	<div class="row">
+		<div class="col-md-12">
+			<article class="textoCentro">
+				<figure>
+					<img class="icone"  src="assets/img/iconIdeaRed.png"  alt="Icone com fundo vermelho em degradê com uma lâmpada representando uma idéia."/>
+				</figure>
+				<h3>
+			 		Lorem ipsum dolor sit amet.
+			 	</h3>
+			 	<p>
+			 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+			 		et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+			 		aliquip ex ea commodo consequat.
+			 	</p>
+			 </article>
 		</div>
 	</div>
 </div>
@@ -122,8 +146,8 @@
 		<p class="textoCentro">Feito a mão por Philipe Oliveira. Todos os direitos não reservados!</p>
 	</footer>
 </section>
-
+<script type="text/javascript" src="assets/js/script.js"></script>
 <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="assets/js/bootsrap.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
 </body>
 </html>
