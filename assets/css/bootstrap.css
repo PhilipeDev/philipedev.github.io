@@ -1605,6 +1605,8 @@ pre code {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
+  padding-right:15px;
+  padding-left:15px;
 }
 .row {
   margin-right: -15px;
