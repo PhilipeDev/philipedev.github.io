@@ -13,7 +13,7 @@ body{
 
 .vermelho{
 	color:#fff;
-	background-color:#f44336;
+	background-color:#0099ff;
 }
 
 .top{
@@ -60,31 +60,68 @@ body{
 }
 
 
-.cabecalho{
-	padding: 77px 15px;
-	
-}
-
 #cabecalho{
 	width:100%;
+	height: 100vh;
+	background-color: rgb(0, 153, 255);
+	text-align:center;
+	position:relative;
+	min-height: 350px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: #fff;
+}
+
+
+
+#cabecalho header{
+	display:table;
+	margin: 0 auto;
+	height:100%;
+	padding: 0 20px;
 }
 
 #cabecalho h1{
+	font-size:25px;
 	color: #000000;
 	font-family: "lemon", sans-serif;
 }
 
-#cabecalho div{
-	background:rgb(244, 67, 54);
+.flecha{
+	bottom:2%;
+	display:inline-block;
+	position:absolute;
+	right: 5%;
+	text-decoration: none;
+	transition: color 0.2s ease-out;
+	padding: 20px;
+	font-size: 1.3em;
+}
+
+#cabecalho a{
+	text-decoration: none;
+	transition: all .5s ease-in-out;
+}
+
+.cabecalho{
+	display: table-cell;
+	position: relative;
+	vertical-align:middle;
 }
 
 .cabecalho p{
-	font-size: 24px;
+	font-size: 18px;
+}
+
+#typed{
+	font-size: 18px;
+	color: #000;
 }
 
 .cabecalho h1{
 	margin: 16px;
-	font-size:64px;
+	font-size:5.7em;
 	color: #cccccc;
 	text-align: center;
 }
@@ -92,6 +129,7 @@ body{
 #cabecalho header div form {
 	padding: 15px;	
 }
+
 
 .intro{
 	margin-right: auto;
@@ -108,31 +146,6 @@ body{
 	color: #fff;
 }
 
-.botaoPreto{
-	color: #fff;
-	background-color: #000;
-	padding: 12px 24px;
-	margin-top: 16px;
-	font-size: 18px;
-	border: none;
-	display: inline-block;
-	outline:0;
-	vertical-allign: middle;
-	overflow: hidden;
-	text-decoration:none;
-	text-align: center;
-	cursor: pointer;
-	white-space: nowrap;
-	font-family: "Monteserrat", sans-serif;
-	text-transformation: none;
-	moz-user-select: none;
-	
-}
-
-.botaoPreto:hover{
-	background-color:#fff;
-	color: #000;
-}
 
 .container{
 	padding: 3em 0 3em;
@@ -327,49 +340,6 @@ body{
 	background-color:#b6dcfb;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
-Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
- 
-.topnav li{
-  display: none;
- }
- 
- .topnav li.icon {
-    float: left;
-    display: block;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
-This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive  li a.icon{
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive li a{
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-
-@media screen and (min-width: 601px){
-	
-	.doisTerços{
-		width:67.77777%;
-	}
-	
-	.terço{
-		width:32.22222%;
-		text-align:center;
-	}
-	
-}
 
 
 .doisTerços{
@@ -415,7 +385,7 @@ This class makes the topnav look good on small screens (display the links vertic
 #rodape{
 	margin: 0 0 0em;
 	position: relative;
-	background-color: #f44336;
+	background-color: rgb(0, 153, 255);
 	color: #fff;
 }
 
@@ -440,10 +410,102 @@ This class makes the topnav look good on small screens (display the links vertic
 
 #rodape footer p{
 	font-size: 11px;
-	padding: 40px 0 0 0;
+	padding: 50px 0 0 0;
 }
 
 
 .textoCentro{
 	text-align: center;
+}
+
+@media screen and (min-width: 550px){
+	.cabecalho-img{
+		min-width:550px;
+		background-image: url(../img/blue-mountains.jpg);
+	}
+	
+	.cabecalho p{
+		font-size: 24px;
+	}
+	
+	#cabecalho h1{
+		font-size:2.3em;
+	}
+	
+	.flecha{
+		right: 20%;
+	}
+	
+	#typed{
+		font-size: 24px;
+	}
+	
+	
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive  li a.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive li a{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
+Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+ 
+.topnav li{
+  display: none;
+ }
+ 
+ .topnav li.icon {
+    float: left;
+    display: block;
+  }
+}
+
+
+@media screen and (min-width: 601px){
+	
+	.doisTerços{
+		width:67.77777%;
+	}
+	
+	.terço{
+		width:32.22222%;
+		text-align:center;
+	}
+	
+}
+
+@media screen and (min-width: 750px){
+	#cabecalho h1{
+		font-size:3.4em;
+	}
+	
+	.flecha{
+		font-size: 1.7em;
+		right: 13%;
+	}
+	
+}
+
+@media screen and (min-width: 1000px){
+	#cabecalho h1{
+		font-size:5.7em;
+	}
+	
+	.flecha{
+		font-size: 1.7em;
+		right: 30%;
+	}
 }
