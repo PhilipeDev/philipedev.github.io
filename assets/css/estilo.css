@@ -215,8 +215,32 @@ body{
 	color:#000;
 }
 
-#sobreHabilidade div h1{
+#responsive {
+	padding-right: 15px;
+	padding-left:15px;
+}
+
+#responsive div h1{
 	color: #e68a00;
+	font-size: 30px;
+}
+
+#java{
+	background: linear-gradient(rgba(89, 89, 89, 0.9), rgba(51, 51, 51, 0.9)), url(../img/code_background.png);
+	background-repeat: no-repeat;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-size:cover;
+	color: #fff;
+}
+
+#java h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+}
+
+#java p{
+	color: #fff;
 }
 
 .conteudoHabilidade{
@@ -389,6 +413,11 @@ body{
 	color: #fff;
 }
 
+#rodape a{
+	color:#fff;
+	padding-left: 5px;
+}
+
 .social{
 	width: auto;
 	height: auto;
@@ -497,6 +526,10 @@ Show the link that contains should open and close the topnav (.icon) */
 		right: 13%;
 	}
 	
+	#responsive div h1{
+	font-size: 35px;
+}
+	
 }
 
 @media screen and (min-width: 1000px){
@@ -507,5 +540,9 @@ Show the link that contains should open and close the topnav (.icon) */
 	.flecha{
 		font-size: 1.7em;
 		right: 30%;
+	}
+	
+	#responsive div h1{
+		font-size: 45px;
 	}
 }
