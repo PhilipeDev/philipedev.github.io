@@ -215,15 +215,20 @@ body{
 	color:#000;
 }
 
-#ideia dl{
+#oquefaco dl{
 	font-size: 15px;
 	margin-top: 0px;
 	font-family: mbnk;
 }
 
-#ideia dt{
+#oquefaco dt{
 	font-weight:700;
 	margin-top:10px;
+}
+
+#oquefaco article{
+	max-width:800px;
+	margin:0 auto;
 }
 
 #responsive {
@@ -246,7 +251,7 @@ body{
 }
 
 .azul{
-	color:rgb(22, 185, 221);
+	color:rgb(22, 213, 255);
 }
 
 #java h1{
@@ -422,8 +427,8 @@ body{
 }
 
 a.btn,.btn {
-  margin-right: 1em; /* remove this while use*/
-  margin-bottom: 1em; /* remove this while use*/
+ 	margin-right: 1em; /* remove this while use*/
+  	margin-bottom: 1em; /* remove this while use*/
 	display: inline-block;
 	outline: none;
 	*zoom: 1;
@@ -454,6 +459,58 @@ a.btn,.btn {
   color: #fff;
   border-color: #4682B4;		
 }
+
+.btn-yellow{
+	background: rgb(254, 215, 102);
+	border-color: rgb(5, 5, 5);
+	border-radius: 50px;
+	color:rgb(5,5,5);
+}
+
+.btn-yellow:hover{
+	background: rgb(5, 5, 5);
+	color: rgb(254, 215, 102);
+	font-weight:700;
+	border-color:rgb(5,5,5);
+}
+
+#contato{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 14px;
+	line-height:1.42857143;
+	background-color:rgb(254, 215, 102);
+	font-family: 'Montserrat', sans-serif;
+}
+
+#contato article{
+	max-width:600px;
+	margin: 0 auto;
+}
+
+#contato header{
+	margin-top: 20px;
+}
+
+#contato h1{
+	font-weight:700;
+}
+
+#contato h3{
+	color:#000000;
+	padding-top:1em;
+	font-size:20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#contato p{
+	font-size:15px;
+	padding-top: 35px;
+}
+
 #rodape{
 	margin: 0 0 0em;
 	position: relative;
@@ -517,7 +574,6 @@ a.btn,.btn {
 		font-size: 24px;
 	}
 	
-	
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
@@ -576,7 +632,7 @@ Show the link that contains should open and close the topnav (.icon) */
 	
 	#responsive div h1{
 	font-size: 35px;
-}
+	}
 	
 }
 
