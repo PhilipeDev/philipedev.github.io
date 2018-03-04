@@ -15,3 +15,15 @@ function imagem_Web3(){
 	setTimeout("imagem_Web2()", 3500);
 	
 }
+
+function imagem_java(){
+	document.getElementById('iconeJava').src = "assets/img/java-icon.png";
+	document.getElementById('iconeJava').className = "java-icon";
+	setTimeout("imagem_java2()", 5000);
+}
+
+function imagem_java2(){
+	document.getElementById('iconeJava').src = "assets/img/python-icon.png";
+	document.getElementById("iconeJava").className = "pythonIcon";
+	setTimeout("imagem_java()", 5000);
+}

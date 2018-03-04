@@ -251,6 +251,14 @@ body{
 	color:rgb(22, 213, 255);
 }
 
+.py{
+	color:#0086b3;
+}
+
+.thon{
+	color:#ffff00;
+}
+
 #java h1{
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
@@ -355,9 +363,9 @@ body{
 }
 
 .conteudoHabilidade .java-design figure{
-	max-width:120px;
+	max-width:140px;
 	margin:0 auto;
-	padding-bottom: 2em;
+	max-height:300px;
 }
 
 .conteudoHabilidade .java-progresso figure{
@@ -366,9 +374,6 @@ body{
 	padding-bottom: 50px;
 }
 
-.conteudoHabilidade .java-design figure img{
-	width:100%;
-}
 
 .conteudoHabilidade .java-progresso figure img{
 	width:100%;
@@ -403,13 +408,23 @@ body{
 }
 
 
-#desenvolver{
+.desenvolver{
 	color: #ff9900;
 }
 
-.iconeJava{
-	width: 177px;
-	margin-right: 150px;
+
+.java-icon{
+	width:100%;
+	height:100%;
+	padding-bottom:5em;
+}
+
+.pythonIcon{
+	padding-bottom: 12em;
+	margin:0 auto;
+	width:185px;
+	padding-top:2em;
+	padding-right:2em;
 }
 
 #iconeConteudo{
