@@ -169,6 +169,9 @@ body{
 	max-width: 470px;
 }
 
+#intro article i{
+	font-size: 120px;
+}
 #intro p{
 	text-aligh:center;
 	font-size: 17px;
@@ -188,31 +191,36 @@ body{
 }
 
 #sobre{
-	color: #000;
-	background-color: #f1f1f1;
-	position: relative;
+	background-color: #fff;
+	min-width:550px;
+	background-image:linear-gradient(rgba(89, 89, 89, 0.5), rgba(0, 0, 0, 0.5)), url(../img/rail-wallpaper.jpg);
+	background-size:cover;
 	padding: 7em 0 7em;
+	background-attachment: fixed;
 	overflow:hidden;
+	position: relative;
 }
 
 #sobre article{
 	margin: 0 auto;
 	max-width:470px;
+	color:#fff;
 }
 
 #sobre article figure{
 	margin: 20px auto;
 	max-width:177px;
+	font-size:150px;
 }
 
 #sobre article h3{
 	padding: .5em 0;
-	color: #f3867e;
+	font-weight:bold;
 }
 
 #sobre article p{
-	font-size: 17px;
-	color:#000;
+	font-size: 1.5em;
+	
 }
 
 #oquefaco dl{
