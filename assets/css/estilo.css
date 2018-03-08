@@ -191,12 +191,9 @@ body{
 }
 
 #sobre{
-	background-color: #fff;
-	min-width:550px;
-	background-image:linear-gradient(rgba(89, 89, 89, 0.5), rgba(0, 0, 0, 0.5)), url(../img/rail-wallpaper.jpg);
-	background-size:cover;
+	background-color: #f1f1f1;
 	padding: 7em 0 7em;
-	background-attachment: fixed;
+	color:#7d7d7d;
 	overflow:hidden;
 	position: relative;
 }
@@ -204,7 +201,7 @@ body{
 #sobre article{
 	margin: 0 auto;
 	max-width:470px;
-	color:#fff;
+	
 }
 
 #sobre article figure{
@@ -576,6 +573,17 @@ a.btn,.btn {
 	.cabecalho-img{
 		min-width:550px;
 		background-image: url(../img/philipemountain.jpg);
+	}
+	
+	#sobre{
+		background-image:linear-gradient(rgba(89, 89, 89, 0.5), rgba(0, 0, 0, 0.5)), url(../img/rail-wallpaper.jpg);
+		background-size:cover;
+		background-attachment: fixed;
+		min-width:550px;
+	}
+	
+	#sobre article{
+		color:#fff;
 	}
 	
 	.cabecalho p{
