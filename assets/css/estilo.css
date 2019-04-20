@@ -422,7 +422,6 @@ body{
 	width:100%;
 	height:100%;
 	padding-bottom:5em;
-	padding-top: 2em;
 }
 
 .pythonIcon{
@@ -570,6 +569,12 @@ a.btn,.btn {
 	text-align: center;
 }
 
+@media screen and (min-width: 400px){
+	.java-design{
+		padding-bottom: 6em;
+	}
+}
+
 @media screen and (min-width: 550px){
 	.cabecalho-img{
 		min-width:550px;
@@ -664,11 +669,14 @@ Show the link that contains should open and close the topnav (.icon) */
 		padding-bottom: 6em;
 	}
 
-
 	.conteudoHabilidade .java-design figure{
 		max-width:150px;
 		margin:0 auto;
 		max-height:190px;
+	}
+
+	.conteudoTeste{
+		padding-bottom: 2em;
 	}
 }
 
@@ -686,6 +694,13 @@ Show the link that contains should open and close the topnav (.icon) */
 	font-size: 35px;
 	}
 
+	.java-icon{
+		padding-top: 2em;
+	}
+
+	.conteudoTeste{
+		padding-bottom: 2em;
+	}
 }
 
 @media screen and (min-width: 1000px){
@@ -698,8 +713,16 @@ Show the link that contains should open and close the topnav (.icon) */
 		right: 30%;
 	}
 
+	.java-icon{
+		padding-top: 2em;
+	}
+
 	#responsive div h1{
 		font-size: 45px;
+	}
+
+	.conteudoTeste{
+		padding-bottom: 2em;
 	}
 
 }
