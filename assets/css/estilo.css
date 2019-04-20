@@ -127,7 +127,7 @@ body{
 }
 
 #cabecalho header div form {
-	padding: 15px;	
+	padding: 15px;
 }
 
 
@@ -187,7 +187,7 @@ body{
 #intro article h3{
 	padding: .5em 0;
 	color: #f44336;
-	font-size: 2em;	
+	font-size: 2em;
 }
 
 #sobre{
@@ -201,7 +201,7 @@ body{
 #sobre article{
 	margin: 0 auto;
 	max-width:470px;
-	
+
 }
 
 #sobre article figure{
@@ -217,7 +217,7 @@ body{
 
 #sobre article p{
 	font-size: 1.5em;
-	
+
 }
 
 #oquefaco dl{
@@ -274,7 +274,7 @@ body{
 }
 
 .conteudoHabilidade{
-	padding: 3em 0 3em;	
+	padding: 3em 0 3em;
 	text-align: center;
 	overflow: hidden;
 }
@@ -370,7 +370,7 @@ body{
 .conteudoHabilidade .java-design figure{
 	max-width:140px;
 	margin:0 auto;
-	max-height:300px;
+	max-height:180px
 }
 
 .conteudoHabilidade .java-progresso figure{
@@ -398,7 +398,7 @@ body{
 	float: left;
 	width:100%;
 }
-	
+
 
 .doisTerços h5{
 	padding-top: 32px;
@@ -422,6 +422,7 @@ body{
 	width:100%;
 	height:100%;
 	padding-bottom:5em;
+	padding-top: 2em;
 }
 
 .pythonIcon{
@@ -473,7 +474,7 @@ a.btn,.btn {
 .btn-blue:hover {
   background: #4682B4;
   color: #fff;
-  border-color: #4682B4;		
+  border-color: #4682B4;
 }
 
 .btn-yellow{
@@ -574,45 +575,49 @@ a.btn,.btn {
 		min-width:550px;
 		background-image: url(../img/philipemountain.jpg);
 	}
-	
+
 	#sobre{
 		background-image:linear-gradient(rgba(89, 89, 89, 0.5), rgba(0, 0, 0, 0.5)), url(../img/rail-wallpaper.jpg);
 		background-size:cover;
 		background-attachment: fixed;
 		min-width:550px;
 	}
-	
+
 	#sobre article{
 		color:#fff;
 	}
-	
+
 	.cabecalho p{
 		font-size: 24px;
 	}
-	
+
 	#cabecalho h1{
 		font-size:2.3em;
 	}
-	
+
 	.flecha{
 		right: 20%;
 	}
-	
+
 	#typed{
 		font-size: 24px;
 	}
-	
+
 	#java{
 		background: linear-gradient(rgba(89, 89, 89, 0.9), rgba(51, 51, 51, 0.9)), url(../img/code_background.png);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size:cover;
-	
+
 	}
-	
+
+	.java-design{
+		padding-bottom: 6em;
+	}
+
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
 This class makes the topnav look on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
@@ -628,14 +633,14 @@ This class makes the topnav look on small screens (display the links vertically 
   }
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home").
 Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
- 
+
 .topnav li{
   display: none;
  }
- 
+
  .topnav li.icon {
     float: left;
     display: block;
@@ -644,45 +649,57 @@ Show the link that contains should open and close the topnav (.icon) */
 
 
 @media screen and (min-width: 601px){
-	
+
 	.doisTerços{
 		width:67.77777%;
 	}
-	
+
 	.terço{
 		width:32.22222%;
 		text-align:center;
 	}
-	
+
+
+	.java-design{
+		padding-bottom: 6em;
+	}
+
+
+	.conteudoHabilidade .java-design figure{
+		max-width:150px;
+		margin:0 auto;
+		max-height:190px;
+	}
 }
 
 @media screen and (min-width: 750px){
 	#cabecalho h1{
 		font-size:3.4em;
 	}
-	
+
 	.flecha{
 		font-size: 1.7em;
 		right: 13%;
 	}
-	
+
 	#responsive div h1{
 	font-size: 35px;
 	}
-	
+
 }
 
 @media screen and (min-width: 1000px){
 	#cabecalho h1{
 		font-size:5.7em;
 	}
-	
+
 	.flecha{
 		font-size: 1.7em;
 		right: 30%;
 	}
-	
+
 	#responsive div h1{
 		font-size: 45px;
 	}
+
 }
