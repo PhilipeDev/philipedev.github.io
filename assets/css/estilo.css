@@ -300,6 +300,10 @@ body{
 }
 
 
+#banco{
+	background-color:#e7f3fe;
+}
+
 #banco #desenho div h3{
 	padding: 0 0 1em;
 	margin:0;
@@ -323,7 +327,25 @@ body{
 }
 
 .banco-cor{
-	color: rgb(234, 27, 34);
+	color: rgb(255, 51, 0);
+}
+
+.amarelo{
+	color: #ffcc00;
+	text-decoration-style: solid;
+
+}
+
+.my{
+	color: #007acc;
+}
+
+.laranja{
+	color: #ff9900;
+}
+
+.cinza{
+	color: #a6a6a6;
 }
 
 #progresso div h3{
@@ -335,25 +357,39 @@ body{
 	font-size:1.2em;
 }
 
-.conteudoHabilidade .banco-design{
+.conteudoHabilidade .design{
 	margin:0 auto;
 	position: relative;
 }
 
-.conteudoHabilidade .banco-design figure{
+.conteudoHabilidade .design figure{
 	max-width:177px;
 	margin:0 auto;
 	padding-bottom: 2em;
 }
 
-.conteudoHabilidade .banco-design figure img{
+#responsive .design img{
+	width: 100%;
+}
+
+#banco article figure img{
 	width:100%;
 }
 
-.conteudoHabilidade .banco-progresso figure{
+#banco article figure{
 	max-width:177px;
+	max-height: 170px;
 	margin: 0 auto;
-	padding-bottom: 2em;
+	padding-bottom: 4em;
+}
+
+#banco article {
+	max-width: 470px;
+	margin: 0 auto;
+}
+
+#banco article p{
+	padding-top:2em;
 }
 
 .conteudoHabilidade .banco-progresso figure img{
@@ -392,11 +428,6 @@ body{
 	padding: 0 0 0 2em;
 }
 
-#banco{
-	background-color:#b6dcfb;
-}
-
-
 
 .doisTerços{
 	float: left;
@@ -421,6 +452,9 @@ body{
 	color: #ff9900;
 }
 
+.csharp{
+	color: #d966ff;
+}
 
 .java-icon{
 	width:100%;
@@ -705,7 +739,7 @@ Show the link that contains should open and close the topnav (.icon) */
 	}
 
 	.java-icon{
-		padding-top: 2em;
+		padding-top: 5em;
 	}
 
 	.conteudoTeste{
@@ -724,7 +758,7 @@ Show the link that contains should open and close the topnav (.icon) */
 	}
 
 	.java-icon{
-		padding-top: 2em;
+		padding-top: 5em;
 	}
 
 	#responsive div h1{
