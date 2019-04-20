@@ -569,6 +569,12 @@ a.btn,.btn {
 	text-align: center;
 }
 
+@media screen and (min-width: 300px){
+	.java-design{
+		padding-bottom: 6em;
+	}
+}
+
 @media screen and (min-width: 400px){
 	.java-design{
 		padding-bottom: 6em;
