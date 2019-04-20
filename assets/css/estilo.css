@@ -16,6 +16,10 @@ body{
 	background-color:rgb(102, 29, 88);
 }
 
+.verde{
+	color: #70db70;
+}
+
 .top{
 	top:0;
 	position: fixed;
