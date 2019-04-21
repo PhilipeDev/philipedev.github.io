@@ -298,6 +298,7 @@ body{
 #banco #desenho div h3{
 	padding: 0 0 1em;
 	margin:0;
+	padding-top: 2em;
 }
 
 #desenho div h3{
@@ -313,6 +314,7 @@ body{
 #banco #progresso div h3{
 	padding: 0 0 1em;
 	margin:0;
+	padding-top: 2em;
 }
 
 .banco-cor{
@@ -496,7 +498,6 @@ body{
 }
 
 #github article p{
-	color: #ffffff;
 	padding-bottom: 2em;
 }
 
@@ -710,6 +711,14 @@ a.btn,.btn {
 		background-size:cover;
 		background-attachment: fixed;
 		min-width:550px;
+	}
+
+	#github article p{
+			color: #ffffff;
+	}
+
+	#github article h3{
+		color: #ffffff;
 	}
 
 }
