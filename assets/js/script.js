@@ -34,7 +34,7 @@ function imagem_back3(){
 }
 
 function imagem_banco(){
-  document.getElementById('iconeBanco').src = "assets/img/iconModeler.png";
+  document.getElementById('iconeBanco').src = "assets/img/icon-firebase.png";
   setTimeout("imagem_banco2()", 3500);
 }
 
@@ -45,13 +45,9 @@ function imagem_banco2(){
 
 function imagem_banco3(){
   document.getElementById('iconeBanco').src = "assets/img/icon-mongodb.png";
-  setTimeout("imagem_banco4()", 3500);
-}
-
-function imagem_banco4(){
-  document.getElementById('iconeBanco').src = "assets/img/icon-firebase.png";
   setTimeout("imagem_banco()", 3500);
 }
+
 
 /*
 function imagem_java(){
