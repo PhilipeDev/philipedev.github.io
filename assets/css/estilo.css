@@ -215,6 +215,23 @@ body{
 
 }
 
+.devIcons{
+	font-size: 3em;
+	color: #868e96;
+}
+
+.devIcons .list-inline-item:hover{
+	color: rgb(102, 29, 88);
+}
+
+#oquefaco .conteudoTeste .subheading{
+	color: #333;
+	text-transform: uppercase;
+	font-size: 1.8em;
+	font-weight: 500;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+
 #oquefaco dl{
 	font-size: 15px;
 	margin-top: 0px;
